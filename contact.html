@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-black">
+      <header class="flex justify-between items-center p-10 bg-gray-1000 text-white sticky top-0 bg-black z-50 border-red-0 rounded-lg bg-black-50 p-6 rounded-xl shadow">
+        <a href="" class="logo text-2xl font-bold animate-bounce">Port<span class="text-pink-600 font-bold text-2xl">Folio</span></a>
+        <div> 
+            <ul class="flex space-x-4 text-xl font-bold">                
+                <a href="presentation.html" class="transition hover:text-red-600 ">Presentation</a>
+                <a href="apropos.html" class="transition hover:text-red-600">A propos</a>
+                <a href="formation.html" class="transition hover:text-red-500 ">Formation</a>
+                <a href="experiencepro.html" class="transition hover:text-red-600 ">Experience professionnel</a>
+               <a href="competences.html" class="transition hover:text-red-600 ">Competence</a> 
+                <a href="projets.html" class="transition hover:text-red-600 ">Projets</a>                                  
+                <a href="contact.html" class="transition hover:text-red-600 ">Contact</a>
+                <a href="reseau.html" class="transition hover:text-red-600 ">Reseaux sociaux</a>
+            </ul>
+        </div>                 
+    </header>
+     <section class="bg-purple-100 py-20">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-6xl font-bold text-center mb-10">
+      CON<span class="text-indigo-600 ">TACT</span>
+    </h2>
+    <div class="bg-black rounded-2xl shadow-lg p-8 md:p-12">
+      <form class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div>
+          <label class="block text-sm font-semibold mb-2">Nom</label>
+          <input type="text" placeholder="Votre nom"
+                 class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <div>
+          <label class="block text-sm font-semibold mb-2">Email</label>
+          <input type="email" placeholder="Votre email"
+                 class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <div class="md:col-span-2">
+          <label class="block text-sm font-semibold mb-2">Sujet</label>
+          <input type="text" placeholder="Sujet du message"
+                 class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500">
+        </div>
+        <div class="md:col-span-2">
+          <label class="block text-sm font-semibold mb-2">Message</label>
+          <textarea rows="5" placeholder="Votre message"
+                    class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"></textarea>
+        </div>
+
+        <div class="md:col-span-2 text-center">
+          <button type="submit"
+                  class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-8 py-3 rounded-lg transition">
+            Envoyer le message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</body>
+</html>
